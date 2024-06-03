@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 200rem;
+}
+.container1{
+    width: 80vw;
+    margin: auto;
+    padding: 0  2em 1em;
+
+}
+span{
+    margin: 4rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    padding-bottom: 2em;
+}
+.container{
+    width: 80vw;
+    margin: auto;
+    box-shadow: 20px 20px 40px black;
+    height: 100rem;
+    position: relative;
+    padding: 5em;
+    background-color: rgb(255, 245, 185);
+    background-color: rgb(255, 245, 185);
+}
+
+h1{
+    font-weight: bold;
+    font-size: 7em;
+    text-align: center;
+}
+
+.image{
+    /* background-image: url("../Demo_2_Codsoft/Images/dr-apj-abdul-kalam-png-transparent-image--thumbnail-1658862402.png");
+    background-size: cover;
+    background-position: center;*/
+    object-fit: cover; 
+    background-position: center;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.8em;
+}
+
+.copyright{
+    padding: 2em;
+    color: white;
+    background-color: rgb(32, 75, 75);
+    height: 10em;
+    width: 80vw;
+    margin: 4em auto;
+    font-size: 1.1em ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
